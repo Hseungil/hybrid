@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="src/jquery.mobile-1.4.5.min.css"/>
+    <script src="src/jquery-1.11.1.min.js"></script>
+    <script src="src/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<!-- 첫번째 페이지 -->
+    <div data-role = "page" id="page1">
+        <div data-role = "header">
+            <a href="#page2" class="ui-btn-right">페이지2</a>  <!-- 오른쪽 버튼 -->
+            <h1>페이지 제목</h1>     <!--헤더바 제목 -->
+        </div>
+
+        <div data-role = "content">
+            <p>content 영역</p>
+            <h1>첫번째 페이지</h1>
+        </div>
+
+        <div data-role="footer">
+            <h4>페이지 꼬리말</h4>
+        </div>
+    </div>
+
+<!-- 두번째 페이지 -->
+    <div data-role = "page" id="page2">
+        <div data-role = "header">
+            <a href="#page1" class="ui-btn-left">페이지1</a>  <!-- 왼쪽 버튼 -->
+            <h1>페이지 제목</h1>     <!--헤더바 제목 -->
+            <a href="#page3" class="ui-btn-right">페이지3</a>  <!-- 오른쪽 버튼 -->
+        </div>
+
+        <div data-role = "content">
+            <p>content 영역</p>
+            <h1>두번째 페이지</h1>
+        </div>
+
+        <div data-role="footer">
+            <h4>페이지 꼬리말</h4>
+        </div>
+    </div>
+
+
+    <!-- 세번째 페이지 -->
+    <div data-role = "page" id="page3">
+        <div data-role = "header">
+            <a href="#page1" class="ui-btn-left">홈</a>  <!-- 왼쪽 버튼 -->
+            <h1>페이지 제목</h1>     <!--헤더바 제목 -->
+        </div>
+
+        <div data-role = "content">
+            <p>content 영역</p>
+            <h1>세번째 페이지</h1>
+        </div>
+
+        <div data-role="footer">
+            <h4>페이지 꼬리말</h4>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
